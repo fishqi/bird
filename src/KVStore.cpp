@@ -1,6 +1,9 @@
 #include "KVStore.h"
 
-int KVStore::init(int size){
+int KVStore::init(){
+	for(int i=0; i<MAX_ARRAY_SIZE; i++) {
+	}
+	return 0;
 }
 
 int KVStore::addItem(const char *key, const void *value, int type){
